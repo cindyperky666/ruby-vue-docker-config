@@ -23,6 +23,7 @@ services:
     ports:
       - '3306:3306'
   front:
+    image: front
     build: ./front
     volumes:
       - ./front:/app
